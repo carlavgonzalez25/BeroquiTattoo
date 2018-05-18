@@ -1,0 +1,255 @@
+/*
+Estilos
+*/
+
+
+
+
+.parallax{
+
+	background-image: url("../imagenes/portada.png");
+	height: 99vh; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+#fondoSobreMi{
+	background-image: url("../imagenes/3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+#trabajos{
+	background-color: #283148;
+
+}
+
+#contacto{
+
+	position: relative;
+	top: 146px;
+
+}
+
+#home:after {
+	border-left-color: #FFF;
+}
+
+
+.tiene-borde-final{
+
+	background-color: #FFF;
+}
+
+.textosClaros, .textosOscuros {
+	font-size: 2rem;
+	/*font-family: "Ralaway" , sans serif;*/
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+
+.textosClaros {
+	color: white;
+
+}
+
+
+
+.linea{
+	content: "";
+	width: 100px;
+	height: 5px;
+	background: #f73859;
+	display: block;
+	position: relative;
+	bottom: 17px;
+}
+
+.textosOscuros{
+	color: black;
+}
+
+
+
+section.tiene-borde-final:after{
+
+	content: "";
+	bottom: -8px;
+	right: 0;
+	border-left: 100vw solid;
+}
+
+section.tiene-borde-final:after, .tiene-borde-ppio:before {
+
+	content: "";
+	width: 0;
+	height: 0;
+	display: block;
+	position: absolute;
+	border-top: 100px solid transparent;
+	border-bottom: 0px solid transparent;
+
+}
+
+.tiene-borde-ppio:before {
+	top: 0;
+	left: 2px;
+	border-right: 99vw solid;
+	border-right-color: #283149;
+	position: relative;
+	
+
+}
+
+.ctNav{
+	background-color: #404B69;
+
+}
+
+.ctColor{
+
+	background-color: #283149;
+	
+}
+
+.ctBlanco{
+
+	background-color: #FFF;
+	height: 100%;
+}
+
+
+.ctImagen {
+
+	height: 333px;
+	width: 333px;
+	margin: 0px 0px;
+	border-radius: 8px 8px 0px 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.ctFotosIG {
+
+	justify-content: center;
+}
+
+#ctFotosIGMD{
+
+	height: 500px;
+	border-radius: 8px 8px 8px 8px;
+	width: 90%;
+}
+
+
+.ctFotosCarrusel{
+
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.tipoBlanca{
+
+	color: #DBEDF3;
+}
+
+.ctTitulos {
+
+	background-color: #F73859;
+	height: 52px; 
+	position: relative;
+	width: 80%;
+	left: 219px;
+}
+
+#ctSobreMi{
+
+	
+
+}
+
+#ctImgSobreMi{
+	width: 100%;
+	
+
+
+}
+
+
+.container-fluid {
+	padding: 0 15px !important;
+}
+
+.tamIconos{
+
+	font-size: 2.3rem;
+}
+
+.cursiva{
+	font-family: 'Kaushan Script', cursive;	
+}
+
+
+#instafeed{
+
+	width: 100%;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+	#ctImgSobreMi{
+		
+	}
+
+	
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+	#ctImgSobreMi{
+		
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+	#ctImgSobreMi{
+		
+	}
+
+
+
+}
+
+@media (min-width: 1852px){
+
+	section.tiene-borde-final:after {
+		content: "";
+		bottom: 9px;
+		right: 0;
+		border-left: 100vw solid;
+	}
+}
